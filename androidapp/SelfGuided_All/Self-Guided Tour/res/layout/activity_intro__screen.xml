@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background">
+<Gallery
+	android:id="@+id/gallery"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_above="@+id/textView1"
+	android:layout_alignParentLeft="true"
+	android:background="@drawable/background" />
+<TextView
+	android:id="@+id/textView1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Bienvenidos! Gracias por utilizar nuestra aplicación. Disfute el recorrido! Pulse cualquier imagen para empezar"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentLeft="true" />
+</RelativeLayout>
